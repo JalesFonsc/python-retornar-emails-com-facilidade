@@ -1,5 +1,6 @@
 import re
-import sys
+
+# Caso queira mudar os delimitadores, basta alterar o regex. Por padrão, deixei os delimitadres < >.
 # Passa a string de e-mails no segundo parâmetro;
 emails = re.findall('\<(.*?)\>', 'SUBSTITUA O TEXTO/EMAIL AQUI')
 
